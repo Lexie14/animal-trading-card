@@ -1,73 +1,89 @@
 html {
      background-color: #c7bdb8;
 }
- .card {
-     border: ridge #6C6B69 3px;
+
+.card {
+     border: 3px ridge #6C6B69;
      border-radius: 15px;
      box-shadow: 10px 5px 10px #FDFFFE;
      background-color: #e0d7d1;
      margin: auto;
      width: 320px;
-     font-family: 'Crimson Text', serif, Helvetica, sans-serif;
+     font-family: 'Slabo 27px', serif;
 }
- .name {
+
+figure {
+     margin: 0;
+}
+
+.name {
      text-align: center;
      font-style: italic;
      margin: 5px;
+     font-size: 30px;
+     font-weight: bold;
 }
- .image {
+
+.image {
      border: ridge #6C6B69 2px;
      border-radius: 15px;
+     width: 300px;
      display: block;
-     margin-left: auto;
-     margin-right: auto;
-     margin-bottom: 10px;
+     margin: 0 auto 10px;
 }
- .information {
+
+.information {
      border: ridge #6C6B69 2px;
      border-radius: 15px;
-     padding: 0 10px 0 10px;
      background: linear-gradient(#ddd7d5, #988781);
      width: 280px;
-     margin: auto;
-     margin-bottom: 10px;
+     padding: 0 10px 10px;
+     margin: 10px auto;
 }
- .fact {
+
+.fact {
      font-style: italic;
 }
- .list {
+
+.list {
      list-style-type: none;
      padding: 0;
 }
- .labels {
+
+.labels {
      font-weight: bold;
 }
- .discrName {
+
+.discrName {
      font-style: italic;
      font-weight: bold;
      font-size: 16px;
-     margin: 0 0 -10px 0;
 }
- .facts {
+
+.facts {
      padding: 0;
      list-style-type: none;
      text-align: justify;
 }
- .factsText {
+
+.factsText {
      margin: 10px;
 }
- .source {
-     margin: -10px 0 0 0;
+
+.source {
+     margin: -10px 0 0;
 }
- .card {
+
+.card {
      -webkit-transition: color 1s ease-in;
-    /*safari and chrome */
+     /*safari and chrome */
      -moz-transition: color 1s ease-in;
-    /* firefox */
+     /* firefox */
      -o-transition: color 1s ease-in;
-    /* opera */
+     /* opera */
 }
- .card:hover {
+
+.card:hover {
      color: #744d25;
      text-shadow: 1px 1px 6px #fff;
 }
